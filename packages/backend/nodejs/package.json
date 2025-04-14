@@ -8,11 +8,11 @@
     "dev": "tsx watch --env-file=.env --env-file=.env.local src/index.ts"
   },
   "dependencies": {
-    "@hono/node-server": "^1.12.2"
+    "@hono/node-server": "^1.12.2",
+    "tsx": "^4.7.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
-    "esbuild": "^0.21.5",
-    "tsx": "^4.7.1"
+    "esbuild": "^0.21.5"
   }
 }
