@@ -17,6 +17,7 @@
     "nodejs:dev": "npm run dev -w @udonarium-backend/nodejs"
   },
   "dependencies": {
+    "@hono/node-server": "^1.14.1",
     "hono": "^4.5.9",
     "tsx": "^4.19.3"
   },
