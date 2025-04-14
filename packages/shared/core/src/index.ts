@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
 import { env } from 'hono/adapter';
-import { SkyWayAuthToken } from './skyway2023/skyway-auth-token';
+import { SkyWayAuthToken } from '../../../../shared/core/src/skyway2023/skyway-auth-token';
 
 interface TokenRequestParam {
   formatVersion: number;
